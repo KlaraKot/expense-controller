@@ -77,7 +77,11 @@ const CurrentAccountBalance = () => {
               placeholder="wybierz rodzaj wpływu"
               onChange={({ target: { value } }) => setTypeOfSource(value)}
             >
-              <option key="pensja" value="pensja">
+              <option
+                key="pensja-test-1
+              "
+                value="pensja"
+              >
                 pensja
               </option>
               <option key="mama" value="mama">
